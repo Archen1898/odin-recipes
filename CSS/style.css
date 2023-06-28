@@ -1,8 +1,8 @@
 .recipe{
     background-color: rgba(255, 211, 175, 0.719);
-    width: 1000px;
+    width: 1000px; 
     margin: 50px auto;
-    padding: 40px;
+   /* padding: 40px;*/
 }
 .pic{
     align-items: center;
@@ -18,8 +18,9 @@
 }
 .container{
     margin: 20px auto;
-    background-color: aqua;
+    background-color: rgb(255, 211, 175, 0.719);
     width: 400px;
+    padding-bottom: 10px;
 }
 .link{
     color: rgb(252, 164, 0);
@@ -27,4 +28,20 @@
 }
 .indexLinks{
     text-align: center;
+}
+
+button{
+    color: black;
+    background-color: gold;
+    border-color: rgb(252, 164, 0);
+    padding: 5px;
+    width: 300px
+}
+
+.buttonformat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0px;
 }
